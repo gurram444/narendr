@@ -1,0 +1,5 @@
+a=('nari','ravi','raje')
+b=('janu','sri','silp','raju')
+z=zip(a,b)
+print(list(z))
+#print(list(z))
