@@ -22,3 +22,10 @@ for num in range(2,n+1):
         else:
           print(num,end=",")
 
+s='aabcdbeftt'
+op='a2bcdbeft2'
+s1=''
+for i in range(len(s)-1):
+    if s[i]+s[i+1]==s[i]+s[i+1]:
+        s1+=i
+print(s1)

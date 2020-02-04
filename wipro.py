@@ -1,4 +1,4 @@
-n = input('enter numbers').split()     # taking numbers from input and remove duplicates from it hddcbcw
+n = input('enter numbers').split()     # taking numbers from input and remove duplicates from it
 print(n)
 m = list(map(int, n))
 print(m)
@@ -15,7 +15,6 @@ def generator(x, y):                  # write function to generate odd number be
             yield i
         elif i > y:
             raise StopIteration
-
 
 x = int(input('enter starting number:'))
 y = int(input('enter ending number:'))
