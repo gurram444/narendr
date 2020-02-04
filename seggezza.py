@@ -58,7 +58,8 @@ if __name__ == '__main__':
     print(*name_format(people), sep='\n')
 
 
-cube=lambda x:x**3      # fibonacci and lambda function
+cube=lambda x:x**3          # fibonacci and lambda function
+
 def fibonacci(n):
     initiallist=[]
     for i in range(n):
