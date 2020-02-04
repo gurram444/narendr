@@ -56,3 +56,17 @@ def name_format(person):
 if __name__ == '__main__':
     people = [input().split() for i in range(int(input()))]
     print(*name_format(people), sep='\n')
+
+
+cube=lambda x:x**3      # fibonacci and lambda function
+def fibonacci(n):
+    initiallist=[]
+    for i in range(n):
+        if i<2:
+            initiallist +=[i]
+        else:
+            initiallist +=[initiallist[-1]+initiallist[-2]]
+    return initiallist
+
+n=int(input())
+print(list(map(cube,fibonacci(n))))
