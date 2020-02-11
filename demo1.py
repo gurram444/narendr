@@ -7,7 +7,6 @@ res=max(list1,key=sum)
 print('sum of sublist is:',res,':',sum(res))
 
 
-
 number=int(input('enter number:'))      #reversing negative number
 str=str(number)
 l=str[0]+str[:0:-1]

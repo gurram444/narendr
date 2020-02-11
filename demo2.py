@@ -4,7 +4,7 @@ for i in range(1,20):
         l.append(i)
 print(l)
 
-import collections           # count characters repeated in string
+import collections             # count characters repeated in string
 str='narendranareshmanideep'
 d=collections.defaultdict(int)
 for i in str:

@@ -22,7 +22,6 @@ else:
     print('not found')
 
 
-
 def binarySearch(arr, l, r, x):
     if r >= l:
         mid = int(l + (r - l) / 2)
